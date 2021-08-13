@@ -4,4 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="WebRTCme" Version="1.0.0" />
+    <PackageReference Include="WebRTCme.Bindings" Version="1.0.0" />
+    <PackageReference Include="WebRTCme.Bindings.Blazor" Version="1.0.0" />
+    <PackageReference Include="WebRTCme.Middleware.Blazor" Version="1.0.0" />
+    <PackageReference Include="WebRTCme.SignallingServerProxy" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
