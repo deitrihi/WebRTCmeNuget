@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorPro.Spinkit" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WebRTCme.Middleware">
+      <HintPath>..\reference\WebRTCme.Middleware.dll</HintPath>
+    </Reference>
+    <Reference Include="WebRTCme.Middleware.Blazor">
+      <HintPath>..\reference\WebRTCme.Middleware.Blazor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

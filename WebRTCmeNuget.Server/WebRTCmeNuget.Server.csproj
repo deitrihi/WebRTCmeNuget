@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebRTCmeNuget.Share\WebRTCmeNuget.Share.csproj" />
+    <ProjectReference Include="..\WebRTCmeNuget.Blazor\WebRTCmeNuget.Blazor.csproj" />
   </ItemGroup>
 
 </Project>
