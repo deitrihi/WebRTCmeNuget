@@ -1,3 +1,15 @@
 .vs/
 WebRTCmeNuget/bin/
 WebRTCmeNuget/obj/
+
+WebRTCmeNuget.Server/bin/
+
+WebRTCmeNuget.Server/obj/
+
+WebRTCmeNuget.Share/bin/
+
+WebRTCmeNuget.Share/obj/
+
+WebRTCmeNuget.Wasm/bin/
+
+WebRTCmeNuget.Wasm/obj/

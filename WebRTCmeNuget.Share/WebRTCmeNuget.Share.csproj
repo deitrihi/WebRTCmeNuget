@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorPro.Spinkit" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.9" />
+    <PackageReference Include="WebRTCme.Middleware.Blazor" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

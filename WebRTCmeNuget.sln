@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCmeNuget", "WebRTCmeNuget\WebRTCmeNuget.csproj", "{940BF212-022F-4165-A689-5D9C1889B52B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCmeNuget.Share", "WebRTCmeNuget.Share\WebRTCmeNuget.Share.csproj", "{3166BC4B-55D3-4914-858F-AC5FB3A94831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCmeNuget.Wasm", "WebRTCmeNuget.Wasm\WebRTCmeNuget.Wasm.csproj", "{CC8BD262-E21B-402C-9C1E-9326536D6F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCmeNuget.Server", "WebRTCmeNuget.Server\WebRTCmeNuget.Server.csproj", "{BF490659-7A56-46DC-A64A-F84262A26805}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{940BF212-022F-4165-A689-5D9C1889B52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{940BF212-022F-4165-A689-5D9C1889B52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{940BF212-022F-4165-A689-5D9C1889B52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{940BF212-022F-4165-A689-5D9C1889B52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3166BC4B-55D3-4914-858F-AC5FB3A94831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3166BC4B-55D3-4914-858F-AC5FB3A94831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3166BC4B-55D3-4914-858F-AC5FB3A94831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3166BC4B-55D3-4914-858F-AC5FB3A94831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8BD262-E21B-402C-9C1E-9326536D6F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8BD262-E21B-402C-9C1E-9326536D6F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8BD262-E21B-402C-9C1E-9326536D6F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8BD262-E21B-402C-9C1E-9326536D6F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF490659-7A56-46DC-A64A-F84262A26805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF490659-7A56-46DC-A64A-F84262A26805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF490659-7A56-46DC-A64A-F84262A26805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF490659-7A56-46DC-A64A-F84262A26805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
